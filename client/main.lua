@@ -32,8 +32,7 @@ local function isPlayerInForkliftVehicle()
 	return isInForklift
 end
 
-local function DisplayMessage()
-	local forklift = GetVehiclePedIsIn(PlayerPedId(), false)		
+local function DisplayMessage()	
 	if isPlayerInForkliftVehicle() then
 		if not isAttached and IsPedInAnyVehicle(PlayerPedId()) and GetEntityModel(GetVehiclePedIsIn(PlayerPedId())) == Config.ForkliftModel then
 			showPopup = (GetClosestVehicle(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 2.0, 0.0), 2.0, 0, 70) ~= 0) 
