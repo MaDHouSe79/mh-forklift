@@ -30,7 +30,7 @@
 - whit this you can lift any vehisle with the gta5 forklift model.
 
 # Install
-- 1. create a folder [mh] in the folder `resources` and place the folder mh-forklift inside [mh] folder
+- 1. create a folder `[mh]` in the folder `resources` and place the folder `mh-forklift` inside `[mh] `folder
 - 2. add in server.cfg `ensure [mh]` (make sure you ensure it after the `ensure [qb]`)
 
 
