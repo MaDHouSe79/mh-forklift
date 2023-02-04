@@ -27,7 +27,7 @@
 </p>
 
 # MH Forklift Script
-- whit this you can lift any vehisle with the gta5 forklift model.
+- you can lift any vehisle with the gta5 forklift model.
 
 # Install
 - 1. create a folder `[mh]` in the folder `resources` and place the folder `mh-forklift` inside `[mh] `folder
